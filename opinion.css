@@ -1,0 +1,83 @@
+@media (color) {
+  ::selection { background: #010101; color: orangered }
+  .flora :not(.nativa) { color: inherit }
+  .sol.sol { background: gold; color: #090909 }
+  .luna.luna { background: #090909; color: hotpink }
+  .jugo.jugo { background: hotpink; color: #090909 }
+  .metal.metal { background: silver; color: #090909 }
+}
+
+:link {
+  text-decoration-style: double;
+  box-shadow: 0 1ex 1em 0 violet;
+  border-radius: 0;
+}
+
+:focus {
+  box-shadow: 0 0 0 .2em #090909;
+  outline-style: dashed;
+  outline-width: .2em;
+}
+
+.mundo {
+  font-family: system-ui, sans-serif;
+  font-size: calc(1em + 1vw + 1vh);
+  line-height: 1.5;
+}
+
+.cuerpo {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+}
+
+.capo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.muy {
+  font-style: inherit;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.vertebra {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.amor {
+  margin: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.quote {
+  box-sizing: border-box;
+  padding: 1rem;
+  border-left: .25rem dashed;
+  display: block;
+  min-height: 100vh;
+}
+
+.espejo  {
+  transform: rotate(180deg);
+}
+
+.curva {
+  border-radius: .2em;
+}
+
+.pad {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.voz {
+  font-size: 0;
+  line-height: 0;
+  margin: 0;
+}
