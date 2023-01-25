@@ -1,28 +1,28 @@
 @media (color) {
-  ::selection { background: #010101; color: orangered }
+  ::selection { background: indigo; color: turquoise }
   .flora :not(.nativa) { color: inherit }
-  .sol.sol { background: gold; color: #090909 }
-  .luna.luna { background: #090909; color: hotpink }
-  .jugo.jugo { background: hotpink; color: #090909 }
-  .metal.metal { background: silver; color: #090909 }
+  .solo.solo { background: violet; color: #111 }
+  .luna.luna { background: plum; color: #111 }
+  .jugo.jugo { background: hotpink; color: #111 }
+  .nara.nara { background: coral; color: #111 }
 }
 
 :link {
   text-decoration-style: double;
-  box-shadow: 0 1ex 1em 0 violet;
+  box-shadow: 0 1ex 1em 0 blueviolet;
   border-radius: 0;
 }
 
 :focus {
   box-shadow: 0 0 0 .2em #090909;
   outline-style: dashed;
-  outline-width: .2em;
+  outline-width: 1ex;
 }
 
 .mundo {
-  font-family: system-ui, sans-serif;
-  font-size: calc(1em + 1vw + 1vh);
-  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: max(3ex, 3vmax);
+  line-height: 1.618;
 }
 
 .cuerpo {
@@ -34,13 +34,12 @@
 
 .capo {
   font-size: 2rem;
-  font-weight: 600;
 }
 
-.muy {
+b {
   font-style: inherit;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 .vertebra {
@@ -55,12 +54,17 @@
   flex-basis: 100%;
 }
 
-.quote {
+.queefx {
   box-sizing: border-box;
-  padding: 1rem;
-  border-left: .25rem dashed;
+  padding: 1em;
+  border: 1em dotted yellow;
   display: block;
   min-height: 100vh;
+}
+
+:focus-within {
+  box-shadow: 1em 0 3em 0 orange;
+  border-style: groove;
 }
 
 .espejo  {
